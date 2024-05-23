@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { JointRoomComponent } from './joint-room.component';
+import { JoinRoomComponent } from './join-room.component';
 
-describe('JointRoomComponent', () => {
-  let component: JointRoomComponent;
-  let fixture: ComponentFixture<JointRoomComponent>;
+describe('JoinRoomComponent', () => {
+  let component: JoinRoomComponent;
+  let fixture: ComponentFixture<JoinRoomComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [JointRoomComponent]
+      imports: [JoinRoomComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(JointRoomComponent);
+    fixture = TestBed.createComponent(JoinRoomComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
